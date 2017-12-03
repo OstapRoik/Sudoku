@@ -149,6 +149,8 @@ namespace Game
                     SelectLabel++;
                 }
             }
+            if (SelectLabel == LevelSize * LevelSize)
+                return;
             if (Sudoku.ArrayConstElement[(int)(SelectLabel / Sudoku.SizeLevel), SelectLabel % Sudoku.SizeLevel] == false)
             {
                 foreach (var item in Grid.Children)
@@ -180,6 +182,8 @@ namespace Game
                     SelectLabel++;
                 }
             }
+            if (SelectLabel == LevelSize * LevelSize)
+                return;
             if (Sudoku.ArrayConstElement[(int)(SelectLabel / Sudoku.SizeLevel), SelectLabel % Sudoku.SizeLevel] == false)
             {
                 foreach (var item in Grid.Children)

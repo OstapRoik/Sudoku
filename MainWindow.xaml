@@ -56,7 +56,7 @@
             <Label Content="Expert" 
                    Width="50" Height="25" Margin="25,40,75,0" VerticalAlignment="Top"/>
             <Slider x:Name="Complexity" Orientation="Vertical"
-                    Margin="91,40,25,40" Maximum="80" Minimum="1" Value="50"
+                    Margin="91,40,25,40" Maximum="60" Minimum="40" Value="50"
                     TickFrequency="3" TickPlacement="Both"
                     TabIndex="2"
                     MouseEnter="Complexity_MouseEnter" MouseLeave="Complexity_MouseLeave"/>
